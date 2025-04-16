@@ -17,7 +17,7 @@ public class Q18_MaxXORTwoNumbers {
                 set.add(num & mask);
             }
             
-            int temp = max | (1 < i);
+            int temp = max | (1 << i);
             for (int prefix : set) {
                 if (set.contains(temp ^ prefix)) {
                     max = temp;
