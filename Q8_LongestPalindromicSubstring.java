@@ -20,6 +20,6 @@ public class Q8_LongestPalindromicSubstring {
             left--;
             right++;
         }
-        return s.substring(left+ 1, right);
+        return s.substring(left + 1, right);
     }
 }
