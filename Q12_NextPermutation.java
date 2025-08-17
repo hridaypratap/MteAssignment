@@ -15,7 +15,7 @@ public class Q12_NextPermutation {
         while (i >= 0 && nums[i] >= nums[i + 1]) {
             i--;
         }
-    
+
         if (i >= 0) {
             int j = nums.length - 1;
             while (j >= 0 && nums[j] <= nums[i]) {
