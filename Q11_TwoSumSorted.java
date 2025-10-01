@@ -19,5 +19,6 @@ public class Q11_TwoSumSorted {
         
         System.out.println("No two numbers add up to target");
     }
+    
 }
 
